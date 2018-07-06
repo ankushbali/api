@@ -1,5 +1,6 @@
 <?php
 
+use App\Model\Review;
 use Faker\Generator as Faker;
 
 $factory->define(App\Model\Product::class, function (Faker $faker) {
